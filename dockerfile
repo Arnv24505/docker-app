@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . .
 
 
-RUN nvm install
+RUN nom install
 
 EXPOSE 3000
 
